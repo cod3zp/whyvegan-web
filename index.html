@@ -1,0 +1,285 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Imports Bootstrap CSS file -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!-- Imports Shoelace CSS file -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.64/dist/themes/light.css">
+
+	<!-- Imports Custom CSS file -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+	<title>Why Vegan</title>
+</head>
+<body>
+
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="./images/logo.png" alt="Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#so-why">So Why?</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tell-me-more">Tell Me More</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#inspire-me">Inspire Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#my-choice">My Choice</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row justify-content-sm-center" id="why-vegan">
+		<div class="row">
+			<div class="col-md-4 scroll-down">
+				<a href="#so-why"><img src="./images/scroll.png" alt="Scroll" class="float-start scroll-img"/></a>
+			</div>
+			<div class="col-md-4 col-sm-8 text-left">
+				<h1>whyvegan.</h1>
+				<p id="definition">"Veganism is a way of living that seeks to exclude, as far as possible and practicable, all forms of exploitation of and cruelty to, animals for food, clothing and any other purpose."</p>
+				<p id="author">Donald Watson, The Vegan Society 1944.</p>
+				<a href="#so-why" class="btn">learn more</a>
+			</div>
+			<div class="col-md-4 scroll-down">
+				<a href="#so-why"><img src="./images/scroll.png" alt="Scroll" class="float-end scroll-img"/></a>
+			</div>
+		</div>
+		<div class="row" id="svg-animation">
+			<svg width="1728" height="437" viewBox="0 0 1728 437" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path 
+					d="M-16 212.4C-6.5 214.9 125 212.4 212 192.534C281.529 176.657 335.457 140.326 353.795 124.094C353.834 124.059 353.865 124.022 353.891 123.976C358.697 115.78 361.558 104.45 362.481 99.3397C362.529 99.0761 362.365 98.8254 362.103 98.7675C352.246 96.5842 333.296 90.1217 332.47 80.7756C332.462 80.6808 332.481 80.5889 332.527 80.5058C335.377 75.3856 344.34 65.8381 358.038 67.6541C364.527 68.5145 368.262 69.143 370.288 69.5843C370.826 69.7015 373.89 69.3892 374.364 69.11L382.71 64.1994C382.842 64.1218 382.93 63.9948 382.951 63.8434C384.309 54.2013 389.117 33.0162 397.803 23.5161C405.852 14.7142 415.707 7.26245 420.63 3.94601C421.022 3.68224 421.513 4.06407 421.366 4.51263C419.623 9.82462 416.971 18.5336 416.547 22.259C416.495 22.7158 416.998 22.8641 417.276 22.498C419.123 20.0673 423.049 15.7972 428.881 11.6428C429.322 11.3287 429.859 11.8434 429.572 12.3026C424.573 20.3109 416.999 34.11 418.84 38.1018C421.348 43.54 450.824 40.7157 464.032 50.2284C477.241 59.741 501.39 80.7921 511.819 80.8778C522.249 80.9635 568.921 99.1332 580.924 94.8365C592.927 90.5398 607.4 118.666 606.4 127.551C605.4 136.436 587.862 153.669 574.014 158.359C560.167 163.05 529.81 184.368 515.932 192.534C502.152 200.641 491.923 195.073 486.244 198.25C486.164 198.295 486.102 198.358 486.059 198.438C483.311 203.571 477.183 216.839 474.075 229.964C474.059 230.032 474.057 230.099 474.07 230.168C476.372 242.352 480.252 269.304 477.5 280.473C474.051 294.473 461 294.473 462 302.973C463 311.473 482.5 296.473 506 292.473C529.5 288.473 598 287.973 622 295.473C646 302.973 747.5 295.473 763 295.473C778.5 295.473 806 294.473 810 284.973C814 275.473 810 274.973 818.5 271.473C827 267.973 820 239.973 830 226.973C840 213.973 850 216.473 858.5 216.473C867 216.473 885.5 210.473 895 213.473C904.5 216.473 918 221.973 921 221.973C924 221.973 959.5 210.973 972.5 216.473C985.5 221.973 991.5 230.973 984 240.973C976.5 250.973 952 274.473 953.5 284.973C955 295.473 965 320.473 960.5 332.473C956 344.473 933 395.473 944 403.973C955 412.473 1002 434.646 1002 422.973C1002 406.973 1017 369.473 1022.5 361.473C1028 353.473 1022 335.973 1025 329.973C1028 323.973 1020.5 316.473 1025 315.473C1029.5 314.473 1030.5 315.973 1038.5 312.973C1046.5 309.973 1054 303.973 1063.5 305.973C1073 307.973 1090.5 316.973 1090.5 323.473C1090.5 329.973 1073 331.473 1073 337.473C1073 343.473 1078.5 365.973 1073 378.973C1067.5 391.973 1090.5 394.973 1090.5 401.473C1090.5 407.973 1133 415.973 1155 406.973C1177 397.973 1188.5 385.973 1190.5 382.473C1192.5 378.973 1191 317.473 1194 310.473C1197 303.473 1222.5 311.973 1224.5 323.473C1226.5 334.973 1236 319.973 1241.5 329.973C1247 339.973 1243.5 349.973 1249 349.973C1254.5 349.973 1261 352.473 1261 367.473C1261 382.473 1269.5 370.973 1272 382.473C1274.5 393.973 1269 406.973 1270.5 408.973C1272 410.973 1315.5 446.973 1331.5 426.973C1347.5 406.973 1321 364.973 1305.5 354.473C1290 343.973 1268.5 329.473 1261 312.973C1253.5 296.473 1238.5 270.473 1238 263.473C1237.5 256.473 1250.5 240.973 1253.5 239.973C1256.5 238.973 1280 257.473 1295.5 257.973C1311 258.473 1322 253.973 1334 251.973C1346 249.973 1362.5 252.473 1366.5 243.473C1370.5 234.473 1368 214.973 1386 208.473C1404 201.973 1422 197.473 1438 202.973C1454 208.473 1418 237.473 1407.5 235.473C1397 233.473 1410 245.973 1415.5 248.973C1421 251.973 1438 272.973 1445.5 272.973C1453 272.973 1577 251.973 1607 251.973C1637 251.973 1714.5 235.473 1746.5 235.473" 
+					stroke="#2A4F8B" 
+					stroke-width="4"
+					class="path"
+				/>
+			</svg>
+		</div>
+	</div>
+	<div class="row justify-content-center" id="so-why">
+		<div class="col-md-7">
+			<img src="./images/so-why.png" alt="SO WHY?" class="so-why-img"/>
+			<sl-tab-group>
+				<sl-tab slot="nav" panel="for-the-animals">For The Animals</sl-tab>
+				<sl-tab slot="nav" panel="for-the-planet">For The Planet</sl-tab>
+				<sl-tab slot="nav" panel="for-your-health">For Your Health</sl-tab>
+			
+				<sl-tab-panel name="for-the-animals">
+					<div class="tab">
+						<div class="content">
+							<ul>
+								<li>We are conditioned to believe animal products are normal, necessary, and natural.</li>
+								<li>Many ideas and ideologies are imposed on us by our society, and in the case of animals, we are instructed to love some and consume others.</li>
+								<li>We have normalised behaviour that we would typically deem horrifying.</li>
+								<li>Every year trillion animals are killed in our consumer-led society – which ultimately means we as the consumer have the power to end this mass animal suffering and slaughter.</li>
+							</ul>
+							<a href="https://www.amazon.nl/This-Vegan-Propaganda-Other-Industry/dp/1785043765" target="_blank">Read more from Ed Winter book “This Is Vegan Propaganda: (& Other Lies theMeat Industry Tells You)”.</a>
+						</div>
+						<div><img src="./images/sheep.png" alt="Sheep" class="so-why-tab-image"/></div>
+					</div>
+				</sl-tab-panel>
+				<sl-tab-panel name="for-the-planet">
+					<div class="tab">
+						<div class="content">
+							Animal agriculture takes up 83% of all agricultural land on the planet, but it generates less than two-fifths of the protein and one fifth of the calories we consume (Poore and Nemecek 2018).
+ 
+							Raising animals for meat, dairy, and eggs:
+							<ul>
+								<li>produces 14.5 percent of greenhouse gas emissions, which is more than the total emissions of the transportation industry. Read more from <a href="https://www.fao.org/3/i3437e/i3437e.pdf" target="_blank">Gerber and Food and Agriculture Organization of the United Nations 2013.</a></li>
+								<li>Switching to a plant-based diet would also allow us to feed everyone on the earth while simultaneously freeing up <a href="https://www.science.org/doi/10.1126/science.aaq0216" target="_blank">75% of agricultural land</a>: which is the size of Australia, China, the EU, and the United States combined. Read more from <a href="https://doi.org/10.1126/science.aaq0216" target="_blank">Poore and Nemecek 2018</a>.</li>
+							</ul>
+						</div>
+						<div><img src="./images/ice.png" alt="Ice" class="so-why-tab-image"/></div>
+					</div>
+				</sl-tab-panel>
+				<sl-tab-panel name="for-your-health">
+					<div class="tab">
+						<div class="content">
+							<ul>
+								<li>Whole food plant based diet has numerous benefits</li>
+								<li>Help the gut microbiome - lower high cholesterol - high blood pressure – boost immune system – reduce risk of heart disease, stokes, type two diabetes</li>
+								<li>According to the <a href="https://pubmed.ncbi.nlm.nih.gov/19562864/" target="_blank">Academy of Nutrition and Dietetics</a>, a plant-based diet has been demonstrated to be healthful and nutritionally appropriate for all stages of life, including pregnancy and infancy.</li>
+								<li>The meat, dairy, and egg industries all claim that animal products offer important nutrients that we can't get anywhere else, but this is simply false.</li>
+							</ul>
+						</div>
+						<div><img src="./images/food.png" alt="Food" class="so-why-tab-image"/></div>
+					</div>
+				</sl-tab-panel>
+			</sl-tab-group>
+		</div>
+	</div>
+	<div class="row text-center" id="tell-me-more">
+		<div class="row align-items-end">
+			<div class="col-4 offset-2">
+				<img src="./images/tell-me-more.png" alt="TELL ME MORE." class="title"/>
+			</div>
+			<div class="col-2 offset-1">
+				<img src="./images/industry-1.png" alt="Dairy Industry" class="industry-img" data-bs-toggle="tooltip" data-bs-html="true" title="Dairy cows must become pregnant and have calves in order to continue producing milk for humans. This is done through  artificial insemination. Calves are usually taken away from their mothers within 24 hours of delivery, causing both mother and calf great agony."/>
+				<p>Dairy Industry</p>
+			</div>
+		</div>
+		<div class="row justify-content-evenly">
+			<div class="col-2 offset-3">
+				<img src="./images/industry-3.png" alt="Fishing Industry" class="industry-img" data-bs-toggle="tooltip" data-bs-html="true" title="Fishing has wiped out 90% of the world's largest fish species. Fishing nets make up 46% of the Great Pacific Garbage Patch."/>
+				<p>Fishing Industry</p>
+			</div>
+			<div class="col-2">
+				<img src="./images/industry-2.png" alt="Egg Industry" class="industry-img" data-bs-toggle="tooltip" data-bs-html="true" title="Free ranged or factory farmed  - male chicks have no use in the egg production or meat industry. They are killed at birth, usually by being macerated alive, gassed or thrown into bins and left to die."/>
+				<p>Egg Industry</p>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-2 offset-3">
+				<img src="./images/industry-4.png" alt="Meat Industry" class="industry-img" data-bs-toggle="tooltip" data-bs-html="true" title="The entire slaughter process, regardless of animal, is completely determined by the needs of the factory from start to finish. US beef  contains trace amounts of hormones, antibiotics, and other chemicals that cattle have never produced."/>
+				<p>Meat Industry</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col">
+				<p id="factory-farming">* All of this is considered legal and acceptable. This is <a href="#">factory farming in Australia.</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="inspire-me">
+		<div class="row justify-content-center">
+			<img src="./images/inspire-me.png" alt="INSPIRE ME." class="title"/>
+		</div>
+		<div class="row justify-content-evenly">
+			<div class="col-md-3">
+				<h3>Animal Sanctuary Residents</h3>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="./images/cow-animal.png" class="card-img-top" alt="cow">
+							<div class="card-body">
+								<h5 class="card-title">Chloe</h5>
+								<p class="card-text">Welcome our newest resident</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./images/goat-animal.png" class="card-img-top" alt="goat">
+							<div class="card-body">
+								<h5 class="card-title">Michael</h5>
+								<p class="card-text">Loves fresh hay</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="./images/chicken-animal.png" class="card-img-top" alt="chicken">
+							<div class="card-body">
+								<h5 class="card-title">Pepper & Eva</h5>
+								<p class="card-text">Best Friends</p>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+			<div class="col-md-5" id="resources">
+				<h3>Resources</h3>
+				<div>
+					<p>Documentaries</p>
+					<p>
+						<a href="https://www.filmsforaction.org/watch/land-of-hope-and-glory-2017/" target="_blank">Land of Hope and Glory (UK 'Earthlings' documentary)</a><br/>
+						<a href="https://www.seaspiracy.org/" target="_blank">Seaspiracy</a><br/>
+						<a href="https://www.dominionmovement.com/watch" target="_blank">Dominion</a><br/>
+					</p>
+					<p>Investigations</p>
+					<p>
+						<a href="https://www.youtube.com/watch?v=x9sSDTbJ8WI" target="_blank">Dismantle Dairy</a><br/>
+						<a href="https://www.youtube.com/watch?v=tTpuuyCLEiQ" target="_blank">Queensland Hatchery: Do you know where you eggs come from?</a><br/>
+					</p>
+					<p>Animal Sanctuary</p>
+					<p>
+						<a href="https://www.instagram.com/thesurgesanctuary/?hl=en" target="_blank">Surge Animal Sanctuary</a><br/>
+						<a href="https://www.instagram.com/farmsanctuary/?hl=en" target="_blank">Farm Sanctuary</a><br/>
+					</p>
+					<p>Participate in Veganuary</p>
+					<p>
+						<a href="https://veganuary.com/" target="_blank">Veganuary.com</a><br/>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-5">
+			<div class="col-2">
+				<p>Famous Vegans</p>
+			</div>
+		</div>
+		<div class="row scroll">
+			<p>
+				Joaquin Phoenix. Woody Harrelson. Albert Einstein. Coretta Scott King.
+			</p>
+			<p>
+				Alicia Silverstone. Emily Deschanel. Benedict Cumberbatch. Billie Eilish.
+			</p>
+		</div>
+	</div>
+	<div class="row switch-off" id="my-choice">
+		<div class="col">
+			<a href="#"><img src="./images/back-to-top-off.png" alt="Back to top" class="float-start back-img"/></a>
+		</div>
+		<div class="col text-left">
+			<div class="row align-items-end" id="switch-part-1">
+				<div class="text-center">
+					<p id="switch-title">MY CHOICE</p>
+					<sl-switch style="--width: 130px; --height: 45px; --thumb-size: 35px;"></sl-switch>
+				</div>
+			</div>
+			<div class="row" id="switch-part-2">
+				<div class="text-center">
+					<p id="switch-subtitle">Ready to turn on the light?</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col">
+			<a href="#"><img src="./images/back-to-top-off.png" alt="Back to top" class="float-end back-img"/></a>
+		</div>
+	</div>
+
+	<nav class="navbar fixed-bottom" id="footer">
+		<div class="col-8 mx-auto">
+			<sl-progress-bar value="0" style="--height: 6px;"></sl-progress-bar>
+		</div>
+	</nav>
+
+	<footer class="justify-content-center align-items-center p-3 border-top">
+    <div class="col align-items-center">
+      <span>This website has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author. All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No part of this work may be reproduced without consent of the original copyright owners. </span>
+    </div>
+  </footer>
+
+	<!-- Imports Bootstrap JS file -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<!-- Imports Shoelace JS file -->
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.64/dist/shoelace.js"></script>
+
+	<!-- Imports Custom JavaScript file -->
+	<script src="./js/scripts.js"></script>
+</body>
+</html>
